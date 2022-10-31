@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'den/imperial',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'den/imperial' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'shadz3rg/lexer' => array(
+            'pretty_version' => 'v1.0.2',
+            'version' => '1.0.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../shadz3rg/lexer',
+            'aliases' => array(),
+            'reference' => '8eef9395a153bc6602c35d801c0499d472dd9a80',
+            'dev_requirement' => false,
+        ),
+        'shadz3rg/php-stamp' => array(
+            'pretty_version' => '0.2.3',
+            'version' => '0.2.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../shadz3rg/php-stamp',
+            'aliases' => array(),
+            'reference' => 'eaa193e80493e9a01c7c33ef8b1580c1e4c28a95',
+            'dev_requirement' => false,
+        ),
+    ),
+);
